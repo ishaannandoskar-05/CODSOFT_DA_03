@@ -27,7 +27,6 @@ Jan 2023 – Dec 2024.
 |---|---|
 | `retail_visualization_report.ipynb` | Main notebook — all charts, code, and insights |
 | `report_view.html` | Static HTML export of the notebook (no Jupyter needed) |
-| `06_interactive_dashboard.html` | Bonus interactive Plotly dashboard — open in any browser |
 | `01_bar_sales_profit_by_category.png` | Bar chart |
 | `02_line_monthly_sales_trend.png` | Line chart |
 | `03_pie_sales_by_region.png` | Pie chart |
@@ -45,16 +44,6 @@ Jan 2023 – Dec 2024.
    orders (concentrated in discounted Furniture).
 5. **Scatter Plot** — Sales vs Profit by category, bubble size = quantity. Shows high sales don't
    always mean high profit, especially for Furniture.
-
-## Bonus: Interactive Dashboard
-
-Power BI and Tableau aren't available in this environment, so the bonus is delivered as an
-equivalent **interactive Plotly HTML dashboard** (`06_interactive_dashboard.html`): 4 linked
-panels (monthly trend, category sales, profit distribution, region share) with hover tooltips and
-zoom. Opens directly in any browser, no software install required.
-
-If a `.pbix` (Power BI) or `.twbx` (Tableau) file is specifically required for submission, import
-`sales_data.csv` into Power BI Desktop or Tableau and rebuild these same five views there.
 
 ## How to Run
 
